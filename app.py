@@ -1,7 +1,7 @@
 from transformers import pipeline
 import gradio as gr
 
-model = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+model = pipeline("summarization")
 
 def predict(prompt):
     summary = model(prompt)[0]["summary_text"]
