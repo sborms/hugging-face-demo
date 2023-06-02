@@ -21,3 +21,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF }}$
         run: git push --force https://sborms:$HF_TOKEN@huggingface.co/spaces/sborms/demo main
+      - name: Push to hub
+        env:
+          HF_TOKEN: ${{ secrets.HF }}
+        run: git push https://sborms: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@huggingface.co/spaces/sborms/demo main
