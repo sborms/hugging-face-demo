@@ -21,4 +21,3 @@ jobs:
         env:
           HF: ${{ secrets.HF }}
         run: git push https://sborms:$HF@huggingface.co/spaces/sborms/demo main
-        # run: git push https://sborms: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@huggingface.co/spaces/sborms/demo main
