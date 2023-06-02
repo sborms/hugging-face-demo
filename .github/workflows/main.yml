@@ -16,7 +16,7 @@ jobs:
       - name: Add remote
         env:
           HF: ${{ secrets.HF }}$
-        run: git remote add space https://sborms:$HFhttps://huggingface.co/spaces/sborms/demo
+        run: git remote add space https://sborms:$HF@huggingface.co/spaces/sborms/demo
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}$
