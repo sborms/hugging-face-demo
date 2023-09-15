@@ -1,3 +1,2 @@
-gradio
-transformers
-tensorflow
+gradio==3.44.3
+transformers==4.24.0
